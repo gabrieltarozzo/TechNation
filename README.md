@@ -36,6 +36,9 @@ Este repositório contém o código-fonte de um sistema financeiro desenvolvido 
 2. **Configuração do Docker:**
     - Certifique-se de que o Docker Desktop esteja rodando.
 
+Ex Docker rodando:
+![Docker](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/telaDocker.PNG)
+
 3. **Configuração do Banco de Dados:**
     - Conecte-se ao SQL Server através do SSMS e execute os scripts que estão em Dados-banco.txt na raiz para criar o banco de dados e as tabelas necessárias.
 
@@ -54,10 +57,22 @@ Este repositório contém o código-fonte de um sistema financeiro desenvolvido 
 
 ![Connection String](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/connectionString.PNG)
 
+- Tambem foi necessario habilitar o TCP em SQL Server Configuration Manager, adicionando a porta 1433 para IPALL
+
+![Tela TCP](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/habilitarTCP.PNG)
   
 - Este projeto foi desenvolvido para fins de avaliação técnica e contém simulações de dados.
   
 ##Imagens do sistema rodando:
+
+![Tela 1](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/tela1.PNG)
+
+![Tela 2](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/tela2.PNG)
+
+##Exemplo imagem do banco:
+
+![Banco](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/banco.PNG)
+
 
 ## Licença
 
