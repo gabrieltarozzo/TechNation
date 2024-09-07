@@ -1,0 +1,76 @@
+CREATE DATABASE FinanceiroDB;
+USE FinanceiroDB;
+
+CREATE TABLE dbo.NotasFiscais (
+    NotaFiscalId INT PRIMARY KEY IDENTITY(1,1),
+    PagadorId INT FOREIGN KEY REFERENCES dbo.Pagadores(PagadorId),
+    NumeroNota VARCHAR(50) NOT NULL,
+    DataEmissao DATE NOT NULL,
+    DataCobranca DATE,
+    DataPagamento DATE,
+    Valor DECIMAL(18, 2) NOT NULL,
+    DocumentoNotaFiscal VARCHAR(255),
+    DocumentoBoleto VARCHAR(255),
+    Status VARCHAR(50) CHECK (Status IN ('Emitida', 'Cobrança realizada', 'Pagamento realizado', 'Pagamento em atraso'))
+);
+
+
+CREATE TABLE Pagadores (
+    PagadorId INT PRIMARY KEY IDENTITY(1,1),
+    Nome VARCHAR(255) NOT NULL
+);
+
+
+INSERT INTO dbo.Pagadores (PagadorId, Nome)
+VALUES 
+    (1, 'João Silva'),
+    (2, 'Maria Oliveira'),
+    (3, 'Carlos Souza'),
+    (4, 'Ana Santos'),
+    (5, 'Pedro Lima'),
+    (6, 'Laura Costa');
+
+INSERT INTO dbo.Pagadores (Nome)
+VALUES 
+    ('João Silva'),
+    ('Maria Oliveira'),
+    ('Carlos Souza'),
+    ('Ana Santos'),
+    ('Pedro Lima'),
+    ( 'Laura Costa');
+
+
+
+INSERT INTO dbo.NotasFiscais (PagadorID, NumeroIdentificacao, DataEmissao, DataCobranca, DataPagamento, Valor, DocumentoNota, DocumentoBoleto, Status)
+VALUES (1, 'NF001', '2024-01-15', '2024-02-01', NULL, 1500.00, 'doc1.pdf', 'boleto1.pdf', 'Emitida'),
+       (1, 'NF002', '2024-02-10', '2024-02-15', NULL, 2000.00, 'doc2.pdf', 'boleto2.pdf', 'Emitida'),
+       (2, 'NF003', '2024-03-05', '2024-03-20', '2024-03-25', 3000.00, 'doc3.pdf', 'boleto3.pdf', 'Pagamento realizado'),
+       (2, 'NF004', '2024-04-10', '2024-07-15', NULL, 1000.00, 'doc4.pdf', 'boleto4.pdf', 'Emitida');
+
+INSERT INTO dbo.NotasFiscais (PagadorId, NumeroIdentificacao, DataEmissao, DataCobranca, DataPagamento, Valor, DocumentoNota, DocumentoBoleto, Status)
+VALUES 
+    -- Status: Emitida
+    (1, 'NF018', '2025-06-01', '2025-07-01', NULL, 2500.00, 'doc18.pdf', 'boleto18.pdf', 'Emitida'),
+    (1, 'NF019', '2025-07-10', '2025-08-15', NULL, 1900.00, 'doc19.pdf', 'boleto19.pdf', 'Emitida'),
+
+    -- Status: Cobrança realizada
+    (2, 'NF020', '2025-08-15', '2025-09-15', NULL, 3100.00, 'doc20.pdf', 'boleto20.pdf', 'Cobrança realizada'),
+    (2, 'NF021', '2025-09-01', '2025-10-01', NULL, 2300.00, 'doc21.pdf', 'boleto21.pdf', 'Cobrança realizada'),
+
+    -- Status: Pagamento realizado
+    (3, 'NF022', '2025-10-05', '2025-11-01', '2025-11-15', 2700.00, 'doc22.pdf', 'boleto22.pdf', 'Pagamento realizado'),
+    (3, 'NF023', '2025-11-15', '2025-12-15', '2025-12-20', 2200.00, 'doc23.pdf', 'boleto23.pdf', 'Pagamento realizado'),
+
+    -- Status: Pagamento em atraso
+    (4, 'NF024', '2025-12-01', '2026-01-01', NULL, 3200.00, 'doc24.pdf', 'boleto24.pdf', 'Pagamento em atraso'),
+    (4, 'NF025', '2026-01-10', '2026-02-01', NULL, 2500.00, 'doc25.pdf', 'boleto25.pdf', 'Pagamento em atraso'),
+
+    -- Status: Emitida
+    (5, 'NF026', '2026-02-05', '2026-03-01', NULL, 2800.00, 'doc26.pdf', 'boleto26.pdf', 'Emitida'),
+    (5, 'NF027', '2026-03-15', '2026-04-15', NULL, 2000.00, 'doc27.pdf', 'boleto27.pdf', 'Emitida'),
+
+    -- Status: Cobrança realizada
+    (6, 'NF028', '2026-04-10', '2026-05-10', NULL, 3500.00, 'doc28.pdf', 'boleto28.pdf', 'Cobrança realizada'),
+    (6, 'NF029', '2026-05-05', '2026-06-01', NULL, 2900.00, 'doc29.pdf', 'boleto29.pdf', 'Cobrança realizada');
+
+
