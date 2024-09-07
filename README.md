@@ -52,7 +52,7 @@ Este repositório contém o código-fonte de um sistema financeiro desenvolvido 
 
 - As instruções para configurar variáveis de ambiente e outras configurações estão detalhadas no arquivo `appsettings.json`, conforme imagem abaixo:
 
- ![ConnectionString](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/connectionString.png)
+![Connection String](https://github.com/gabrieltarozzo/TechNation/raw/main/Imagens/connectionString.PNG)
 
   
 - Este projeto foi desenvolvido para fins de avaliação técnica e contém simulações de dados.
