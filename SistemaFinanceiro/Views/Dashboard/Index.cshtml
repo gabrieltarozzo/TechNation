@@ -1,0 +1,109 @@
+﻿@model SistemaFinanceiro.Models.DashboardViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="container-fluid">
+    <h1 class="mt-4">Bem-vindo ao Dashboard</h1>
+
+    <!-- Indicadores -->
+    <div class="row">
+        <div class="col-md-2">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total Emitido</h5>
+                    <p class="card-text">@Model.ValorTotalEmitido.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-white bg-secondary mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Emitido Sem Cobrança</h5>
+                    <p class="card-text">@Model.ValorTotalEmitidoSemCobrança.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-white bg-danger mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Inadimplência</h5>
+                    <p class="card-text">@Model.ValorTotalInadimplente.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">A Vencer</h5>
+                    <p class="card-text">@Model.ValorTotalAVencer.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total Pago</h5>
+                    <p class="card-text">@Model.ValorTotalPago.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gráficos -->
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="inadimplenciaChart" width="400" height="200"></canvas>
+        </div>
+        <div class="col-md-6">
+            <canvas id="receitaChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Gráfico de Inadimplência
+    var ctx1 = document.getElementById('inadimplenciaChart').getContext('2d');
+    var inadimplenciaChart = new Chart(ctx1, {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(Json.Serialize(Model.InadimplenciaMensal.Select(d => d.Mes))),
+            datasets: [{
+                label: 'Inadimplência',
+                data: @Html.Raw(Json.Serialize(Model.InadimplenciaMensal.Select(d => d.Valor))),
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // Gráfico de Receita
+    var ctx2 = document.getElementById('receitaChart').getContext('2d');
+    var receitaChart = new Chart(ctx2, {
+        type: 'bar',
+        data: {
+            labels: @Html.Raw(Json.Serialize(Model.ReceitaMensal.Select(d => d.Mes))),
+            datasets: [{
+                label: 'Receita',
+                data: @Html.Raw(Json.Serialize(Model.ReceitaMensal.Select(d => d.Valor))),
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>

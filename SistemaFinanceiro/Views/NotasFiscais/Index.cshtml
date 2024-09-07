@@ -1,0 +1,82 @@
+﻿@model IEnumerable<SistemaFinanceiro.Models.NotaFiscal>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Fiscais</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Lista de Notas Fiscais</h1>
+
+        <form method="get" action="@Url.Action("Index", "NotasFiscais")">
+            <div class="form-group">
+                <label for="status">Status</label>
+                <select id="status" name="status" class="form-control">
+                    <option value="">Todos</option>
+                    <option value="Emitida">Emitida</option>
+                    <option value="Cobrança realizada">Cobrança realizada</option>
+                    <option value="Pagamento em atraso">Pagamento em atraso</option>
+                    <option value="Pagamento realizado">Pagamento realizado</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mesEmissao">Mês de Emissão</label>
+                <input type="month" id="mesEmissao" name="mesEmissao" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="mesCobrança">Mês de Cobrança</label>
+                <input type="month" id="mesCobrança" name="mesCobrança" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="mesPagamento">Mês de Pagamento</label>
+                <input type="month" id="mesPagamento" name="mesPagamento" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Filtrar</button>
+        </form>
+
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Nome do Pagador</th>
+                    <th>Número da Nota</th>
+                    <th>Data de Emissão</th>
+                    <th>Data de Cobrança</th>
+                    <th>Data de Pagamento</th>
+                    <th>Valor</th>
+                    <th>Documento da Nota Fiscal</th>
+                    <th>Documento do Boleto</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var nota in Model)
+                {
+                    <tr>
+                        <td>@nota.NomePagador</td>
+                        <td>@nota.NumeroIdentificacao</td>
+                        <td>@(nota.DataEmissao.HasValue ? nota.DataEmissao.Value.ToShortDateString() : "N/A")</td>
+                        <td>@(nota.DataCobranca.HasValue ? nota.DataCobranca.Value.ToShortDateString() : "N/A")</td>
+                        <td>@(nota.DataPagamento.HasValue ? nota.DataPagamento.Value.ToShortDateString() : "N/A")</td>
+                        <td>@nota.Valor.ToString("C")</td>
+                        <td>@nota.DocumentoNota</td>
+                        <td>@nota.DocumentoBoleto</td>
+                        <td>@nota.Status</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

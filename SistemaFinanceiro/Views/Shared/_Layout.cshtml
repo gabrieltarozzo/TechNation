@@ -1,0 +1,116 @@
+﻿@{
+    var dashboardActive = (ViewContext.RouteData.Values["controller"]?.ToString() == "Dashboard" &&
+                           ViewContext.RouteData.Values["action"]?.ToString() == "Index") ? "active" : "";
+    var notasFiscaisActive = (ViewContext.RouteData.Values["controller"]?.ToString() == "NotasFiscais" &&
+                              ViewContext.RouteData.Values["action"]?.ToString() == "Index") ? "active" : "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Sistema Financeiro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 250px;
+            background-color: #ff007b;
+            color: #fff;
+        }
+
+            .sidebar .nav-link {
+                color: #fff;
+            }
+
+                .sidebar .nav-link.active {
+                    background-color: #ff4d94;
+                }
+
+        .navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            margin-left: 250px;
+        }
+
+        .content-wrapper {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+            .user-info img {
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <div class="p-4">
+            <h3>Sistema Financeiro</h3>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link @dashboardActive" href="@Url.Action("Index", "Dashboard")">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @notasFiscaisActive" href="@Url.Action("Index", "NotasFiscais")">Notas Fiscais</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+       
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search here" aria-label="Search">
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle user-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://via.placeholder.com/40" alt="User Image">
+                            Gabriel Lustosa
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+        @RenderBody()
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Adiciona Chart.js -->
+</body>
+</html>

@@ -1,0 +1,388 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\models\\notafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\models\\notafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\controllers\\notasfiscaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\controllers\\notasfiscaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\models\\pagador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\models\\pagador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\notasfiscais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\notasfiscais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\dashboard\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\dashboard\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\sistemafinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Adm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\notasfiscais\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\notasfiscais\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\views\\shared\\_layout - c\u00F3pia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\views\\shared\\_layout - c\u00F3pia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|c:\\users\\adm\\source\\repos\\sistemafinanceiro\\sistemafinanceiro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7D219B7-A54C-4A60-BA50-E3E0FA90559D}|SistemaFinanceiro\\SistemaFinanceiro.csproj|solutionrelative:sistemafinanceiro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotasFiscaisController.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Controllers\\NotasFiscaisController.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Controllers\\NotasFiscaisController.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Controllers\\NotasFiscaisController.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Controllers\\NotasFiscaisController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwBwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:53:20.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T22:15:42.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T04:56:49.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotaFiscal.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Models\\NotaFiscal.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Models\\NotaFiscal.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Models\\NotaFiscal.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Models\\NotaFiscal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:33:59.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SistemaFinanceiro",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\SistemaFinanceiro.csproj",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\SistemaFinanceiro.csproj",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\SistemaFinanceiro.csproj",
+              "RelativeToolTip": "SistemaFinanceiro\\SistemaFinanceiro.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T22:25:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:36:13.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T04:49:01.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T02:23:02.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAApwEkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T05:01:33.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:37:44.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\Dashboard\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:50:34.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T22:09:12.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pagador.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Models\\Pagador.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Models\\Pagador.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Models\\Pagador.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Models\\Pagador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:33:14.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Dockerfile",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Dockerfile",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Dockerfile",
+              "RelativeToolTip": "SistemaFinanceiro\\Dockerfile",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-06T18:24:39.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\appsettings.Development.json",
+              "RelativeToolTip": "SistemaFinanceiro\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T04:23:42.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\appsettings.json",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\appsettings.json",
+              "RelativeToolTip": "SistemaFinanceiro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T04:23:39.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Program.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Program.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:30:50.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\Adm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\Adm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-06T19:49:41.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "SistemaFinanceiro\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-06T04:51:59.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout - C\u00F3pia.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Shared\\_Layout - C\u00F3pia.cshtml",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\Shared\\_Layout - C\u00F3pia.cshtml",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\Shared\\_Layout - C\u00F3pia.cshtml",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\Shared\\_Layout - C\u00F3pia.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T05:02:02.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml.cs",
+              "RelativeToolTip": "SistemaFinanceiro\\Views\\NotasFiscais\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T05:02:35.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SistemaFinanceiro\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\SistemaFinanceiro\\SistemaFinanceiro\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SistemaFinanceiro\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T16:30:00.925Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
